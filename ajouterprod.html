@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>accés administrateur</title>
+</head>
+<body>
+<form action="insert.php" method="POST">
+<fieldset style="background: #EEEEEE;">
+<LEGEND ALIGN="LEFT"style="color:#3333DD;background:#CCCCFF;">
+<font size=6>Administrateur</font>
+</LEGEND>
+<form>
+<table border="0">
+
+<td><h3>Réference</h3></td>
+<td><pre>              </pre></td>
+<td><input type=text name="Ref" size="60"maxlength="100"
+/></td>
+</tr>
+<tr>
+<td><h3>Désigne</h3></td>
+<td><pre>              </pre></td>
+<td><input type="text" placeholder="Désigne" name="Des"/></td>
+</tr>
+<tr>
+<td><h3>Prix</h3></td>
+<td><pre>              </pre></td>
+<td><input type="number" placeholder="..." name="Prix"/>
+</tr>
+<tr>
+  <form action="insert.php">
+  <label for="numbers"><td><h3>Qte</h3></td></label>
+<td><pre>              </pre></td>
+  <td><select id="Quentite" name="Que">
+
+   <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+ 
+  </select></td>
+</form></tr>
+<tr><td><h3>Promo</h3></td>
+  <td><pre>              </pre></td>
+  <td><select id="Promotion" name="Pro">
+
+   <option value="Oui">Oui</option>
+   <option value="Non">Non</option>
+ 
+  </select>
+</tr>
+
+</table>
+
+
+<table border="0">
+<tr><td><pre>                                                                                               </pre></td>
+<td><button>Ajouter</button></td>
+<td><pre>         </pre></td>
+<td><button>Annuler</button></td>
+</tr>
+ </table> 
+ </form>
+</body>
+</html>
