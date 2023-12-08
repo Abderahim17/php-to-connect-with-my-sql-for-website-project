@@ -1,2 +1,2 @@
-# php-to-connect-with-my-sql-for-website-project
+# connect php with sql and html
 only php and html exemple
